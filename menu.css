@@ -1,0 +1,28 @@
+#navbar{
+    overflow: hidden;
+    background-color :aquamarine
+}
+
+
+#navbar{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
