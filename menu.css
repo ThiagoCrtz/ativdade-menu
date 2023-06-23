@@ -1,6 +1,7 @@
 #navbar{
     overflow: hidden;
-    background-color : black
+    background-color : black;
+   
 }
 
 
@@ -11,7 +12,19 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+
 }
+
+#navbar a:hover {
+  background-color: #99CC32;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #31cc02;
+  color: white;
+}
+
 
 .content{
     padding: 16px;
